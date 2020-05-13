@@ -1,0 +1,4 @@
+<div *ngFor="let post of posts">
+    <app-control [dato]="post.id"></app-control>
+    <textarea type="text" style="width:150px;">{{ post.body }}</textarea>
+  </div>
